@@ -21,6 +21,8 @@ from gsil import gsil
 from gsil.notification import Notification
 
 if __name__ == '__main__':
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
     try:
         if len(sys.argv) < 2:
             print('python gsil.py <rules_type>')
