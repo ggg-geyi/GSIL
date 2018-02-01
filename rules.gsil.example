@@ -1,7 +1,9 @@
 {
     "test": {
         "mogujie.com": {
-            "\"mogujie.org\"": {}
+            "\"mogujie.org\"": {
+                "ext":"js"
+            }
         }
     }
 }
